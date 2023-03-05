@@ -1,0 +1,142 @@
+:root {
+    --title-text-color: #2E2F42;
+    --accent-color:#4D5AE5;
+    --white-color:#ffffff;
+    --text-color:#434455;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--white-color);
+    font-size: 16px;
+}
+.list {
+    list-style: none;
+    
+}
+/* разметка логотипа */
+.logo {
+    color: var(--title-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.logo-span {
+ color: var(--accent-color);
+}
+/* разметка навигации сайта */
+.nav-link{
+    color: var(--title-text-color);
+    text-decoration: none; 
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--accent-color);
+}
+.nav-link.current {
+    color: var(--accent-color);
+}
+.contact-link {
+color: var(--text-color);
+font-style: normal;
+text-decoration: none;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.contact-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+/*  */
+.hero{
+    background-color: var(--title-text-color);
+}
+.hero-title{
+    color: var(--white-color);
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
+}
+.button{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+.button:hover,
+.button:focus{
+    background-color: #404BBF;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.subtitle{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+.subtitle-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.section-title {
+    color: var(--title-text-color); 
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+.section {
+    background-color: #F4F4FD;
+}
+/*  */
+.logo-footer{
+    color: #F4F4FD;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.text-footer{
+    color: #E7E9FC;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* портфолио кнопки */
+.list-button{
+background-color: #F4F4FD;
+color: var(--accent-color);
+}
+.list-button:hover,
+.list-button:focus{
+    background-color: #404BBF;
+    color:var(--white-color) ;
+}
+
+.list .item{
+    text-decoration: none;
+}
