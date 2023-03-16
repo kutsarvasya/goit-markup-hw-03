@@ -64,8 +64,7 @@ a {
 .main-nav{
     display:flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px; 
+   
    
 }
 
@@ -79,6 +78,8 @@ a {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.03em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .logo-span {
  color: var(--accent-color);
@@ -121,7 +122,7 @@ padding-top: 24px;
 padding-bottom: 24px;
 }
 .contact-nav .link:hover,
-.contacts-nav .link:focus {
+.contact-nav .link:focus {
     color: var(--accent-color);
 
 }
@@ -314,4 +315,9 @@ border: 1px solid var(--border-color);
     border-left:  1px solid #E7E9FC; 
     border-right: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;  
+}
+.bg-card{
+    background: #FFFFFF;
+        box-shadow: var(--card-shadow);
+        border-radius: 0px 0px 4px 4px;
 }
